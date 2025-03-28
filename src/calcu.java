@@ -15,7 +15,7 @@ public class calcu {
 }
 
 interface Calculator {
-    public abstract void add(int a, int b);
+    public abstract void add(int a, int b); // in this case by default public abstract is already there
     public abstract void sub(int a, int b);
 }
 interface calci {
